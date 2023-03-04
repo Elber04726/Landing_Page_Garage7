@@ -1,0 +1,118 @@
+.formulario {
+	margin: 20px;
+}
+
+form {
+    position: absolute;
+    top: 170px;
+	margin-left: 20px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 10px;
+    color: yellow;
+}
+
+.bloco{
+	position: absolute;
+    top: 160px;
+	margin-left: 20px;
+    background-color: gray;
+    width: 410px;
+	height: 515px;
+	border: none;
+    border-radius: 10px;
+	opacity: 0.3;
+}
+
+.input-padrao {
+	display: block;
+	margin: 10px;
+	padding: 10px 25px;
+	width: 350px;
+    border-radius: 10px;
+    border: none;
+}
+
+.checkbox {
+	margin: 10px;
+}
+
+.box{
+    margin: 10px;
+}
+
+.enviar {
+	width:340px;
+	padding: 15px 0;
+    margin: 15px;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+@media (max-width: 480px){
+    form{
+        position: absolute;
+		top: 170px;
+		background-color:darkgray;
+		width: 340px;
+		border-radius: 10px;
+	}
+}
+
+@media (max-width: 480px){
+	.input-padrao{
+		display: block;
+		margin: 10px;
+		padding: 10px 25px;
+		width: 315px;
+		border-radius: 10px;
+		border: none;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px){
+	.enviar{
+		width:310px;
+		padding: 15px 0;
+		background: orange;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		border: none;
+		border-radius: 10px;
+		transition: 1s all;
+		cursor: pointer;
+	}
+
+}
+
+@media (max-width: 480px){
+	.bloco{
+		position: absolute;
+		top: 160px;
+		margin-left: 25px;
+		background-color: gray;
+		width: 370px;
+		height: 497px;
+		border: none;
+		border-radius: 10px;
+		opacity: 0.3;
+	}
+}

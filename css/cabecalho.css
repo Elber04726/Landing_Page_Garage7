@@ -1,0 +1,85 @@
+.cabecalho{
+    background-color: black;
+}
+
+.logotipo{
+    width: 280px;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 60px;
+    height: 60%;
+    width: 90%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffff 0% #d7e1ec 74%);
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1) ;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icone {
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button .icone i{
+    font-size: 25px;
+    line-height: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button a{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 60px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.wrapper .button:hover{
+    width: 200px;
+}
+
+@media (max-width: 480px){
+    #nav{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    #logo{
+        width: 120px;
+        position: absolute;
+        left: 50px;
+        top: 40px;
+    }
+}
+
+@media (max-width: 480px){
+    #carouselExampleIndicators{
+        display: none;
+    }
+}
